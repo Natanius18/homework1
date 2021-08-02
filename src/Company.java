@@ -9,6 +9,6 @@ public class Company {
         profit = profitOfCompany;
     }
     void sayName(){
-        System.out.println("This company is called " + name);
+        System.out.println("This company is called " + name + ". The CEO of the company is " + ceo.name);
     }
 }
